@@ -55,8 +55,8 @@ streamlit run app.py
 Business dashboard proyek ini dibuat menggunakan Google Looker Studio dengan menambah fitur filter berdasarkan status mahasiswa, application order, 
 application mode dan previous qualification. Pada dashboard ditampilkan jumlah mahasiswa, jumlah mahasiswa graduate, dropout dan enrolled, dropout rate, 
 rata-rata umur mahasiswa ketika masuk, rata-rata nilai admission grade, jumlah mahasiswa berdasarkan status tuition fees, scholarship holder, debtor, gender, 
-course yang diambil dan nilai selama berkuliah. Terdapat juga scatter plot dengan sumbu x rata-rata unit kurikulum yang didaftarkan, 
-sumbu y rata-rata unit kurikulum yang approve, dibedakan berdasarkan status, serta berat bubble berdasarkan unit kurikulum yang perlu dievaluasi.
+course yang diambil dan nilai selama berkuliah. Terdapat juga scatter plot dengan sumbu x rata-rata unit kurikulum yang disetujui, 
+sumbu y rata-rata unit kurikulum yang didaftarkan, dibedakan berdasarkan status, serta berat bubble berdasarkan rata rata unit kurikulum yang perlu dievaluasi.
 Pada pojok atas terdapat tombol yang mengarahkan ke github repository tempat proyek ini disimpan, serta link menuju dashboard streamlit 
 untuk mengakses dashboard prediksi berdasarkan model machine learning yang sudah dibuat. Dashboard terdiri dari 2 halaman yaitu dashboard main yang merupakan data asli dan dashboard simulation adalah dashboard dari data hasil prediksi ketika dilakukan action item memberikan beasiswa pada peraih nilai di atas 15.
 
