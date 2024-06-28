@@ -112,7 +112,7 @@ def example():
         st.markdown("This is a container with a border.")
 
 st.set_page_config(layout="wide")
-st.title("Jaya Jaya Maju Institute Student Status Prediction")
+st.title("Jaya Jaya Institute Student Status Prediction")
 
 with st.container(border = True):
 
