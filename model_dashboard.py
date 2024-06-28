@@ -68,7 +68,7 @@ def num_scaler(data):
 
 
 def data_preparation(data_input):
-    students_data = pd.read_csv("D:/pythonProject/student_model/students_data.csv")
+    students_data = pd.read_csv("students_data.csv")
     students_data = students_data.drop(columns = ["ID", "Status"])
     data_prep = pd.concat([students_data, data_input])
     num = ['Application_order', 'Previous_qualification_grade', 'Admission_grade',
@@ -306,7 +306,7 @@ data_df = pd.DataFrame(data, columns=[ 'Application_order', 'Previous_qualificat
 
 # Load Model Machine Learning
 model = xgb.XGBClassifier()
-model.load_model("D:/pythonProject/student_model/model.json")
+model.load_model("model.json")
 with stylable_container(
     key="PREDICT",
     css_styles="""
