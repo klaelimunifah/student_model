@@ -58,7 +58,7 @@ rata-rata umur mahasiswa ketika masuk, rata-rata nilai admission grade, jumlah m
 course yang diambil dan nilai selama berkuliah. Terdapat juga scatter plot dengan sumbu x rata-rata unit kurikulum yang didaftarkan, 
 sumbu y rata-rata unit kurikulum yang approve, dibedakan berdasarkan status, serta berat bubble berdasarkan unit kurikulum yang perlu dievaluasi.
 Pada pojok atas terdapat tombol yang mengarahkan ke github repository tempat proyek ini disimpan, serta link menuju dashboard streamlit 
-untuk mengakses dashboard prediksi berdasarkan model machine learning yang sudah dibuat. 
+untuk mengakses dashboard prediksi berdasarkan model machine learning yang sudah dibuat. Dashboard terdiri dari 2 halaman yaitu dashboard main yang merupakan data asli dan dashboard simulation adalah dashboard dari data hasil prediksi ketika dilakukan action item memberikan beasiswa pada peraih nilai di atas 15.
 
 Model machine learning yang dibuat menerapkan teknik XGBClassifier dengan mencapai 0,9765 atau 97,65% dengan score micro OVR(One Vs Rest) 
 dan macro OVR ROC AUC bernilai 1 atau 100%. Score micro OVR(One Vs Rest) dan macro OVR ROC AUC menunjukkan kemampuan model dalam memisahkan 1 kelas dari seluruh kelas lain. 
