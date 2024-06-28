@@ -263,7 +263,7 @@ with st.container(border = True):
                                                        min_value = 0.0,
                                                        max_value= 20.0,
                                                        value= 0.0,
-                                                       step = 0.5)
+                                                       step = 0.1)
 
 with st.container(border = True):
         st.subheader('Financial Data', divider='grey')
