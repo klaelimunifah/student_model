@@ -199,10 +199,10 @@ with st.container(border = True):
         Previous_qualification = education_qualification(Previous_qualification)
     with col2b:
         Admission_grade = st.number_input("Admission Grade",
-                                           min_value = 0,
-                                           max_value= 200,
-                                           value= 0,
-                                           step = 1)
+                                           min_value = 0.0,
+                                           max_value= 200.0,
+                                           value= 0.0,
+                                           step = 0.5)
 
         Application_order = st.number_input("Application Order",
                                            min_value = 0,
@@ -211,10 +211,10 @@ with st.container(border = True):
                                            step = 1)
 
         Previous_qualification_grade = st.number_input("Previous Qualification Grade",
-                                                       min_value = 0,
-                                                       max_value= 200,
-                                                       value= 0,
-                                                       step = 1)
+                                                       min_value = 0.0,
+                                                       max_value= 200.0,
+                                                       value= 0.0,
+                                                       step = 0.5)
 
 with st.container(border = True):
     st.subheader('While Studying Data', divider='grey')
@@ -232,13 +232,13 @@ with st.container(border = True):
     with col3b:
         Curricular_units_credited = st.number_input("Curricular Units Credited",
                                                    min_value = 0,
-                                                   max_value= 40,
+                                                   max_value= 46,
                                                    value= 0,
                                                    step = 1)
 
         Curricular_units_enrolled = st.number_input("Curricular Units Enrolled",
                                                        min_value = 0,
-                                                       max_value= 52,
+                                                       max_value= 46,
                                                        value= 0,
                                                        step = 1)
 
@@ -263,7 +263,7 @@ with st.container(border = True):
                                                        min_value = 0.0,
                                                        max_value= 20.0,
                                                        value= 0.0,
-                                                       step = 0.1)
+                                                       step = 0.25)
 
 with st.container(border = True):
         st.subheader('Financial Data', divider='grey')
